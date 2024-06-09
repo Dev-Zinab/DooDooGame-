@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2F6B702B399DF900909AFF /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F6B6F2B399DF900909AFF /* Localizable.xcstrings */; };
+		8C2F6B722B39A6C000909AFF /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F6B712B39A6C000909AFF /* Memory.swift */; };
+		8C2F6B742B39A71F00909AFF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F6B732B39A71F00909AFF /* CardView.swift */; };
+		8C88587C2B308A4A00C8652A /* DooDooGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88587B2B308A4A00C8652A /* DooDooGameApp.swift */; };
+		8C88587E2B308A4A00C8652A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88587D2B308A4A00C8652A /* ContentView.swift */; };
+		8C8858802B308A4D00C8652A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C88587F2B308A4D00C8652A /* Assets.xcassets */; };
+		8C8858832B308A4D00C8652A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8858822B308A4D00C8652A /* Preview Assets.xcassets */; };
+		8C88588D2B308A4E00C8652A /* DooDooGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88588C2B308A4E00C8652A /* DooDooGameTests.swift */; };
+		8C8858972B308A4E00C8652A /* DooDooGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8858962B308A4E00C8652A /* DooDooGameUITests.swift */; };
+		8C8858992B308A4E00C8652A /* DooDooGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8858982B308A4E00C8652A /* DooDooGameUITestsLaunchTests.swift */; };
+		8CFCF7702B31D60D00DAD00B /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCF76F2B31D60D00DAD00B /* MainPage.swift */; };
+		8CFCF7742B31DF2800DAD00B /* Gifimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCF7732B31DF2800DAD00B /* Gifimage.swift */; };
+		8CFCF7762B31E4EA00DAD00B /* dodoWalkGIFBG.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCF7752B31E4EA00DAD00B /* dodoWalkGIFBG.gif */; };
+		8CFCF7782B33311000DAD00B /* gamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCF7772B33311000DAD00B /* gamePage.swift */; };
+		8CFCF77C2B34847600DAD00B /* dodoDanceNoBG.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCF77B2B34847600DAD00B /* dodoDanceNoBG.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8858892B308A4E00C8652A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8858702B308A4A00C8652A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8858772B308A4A00C8652A;
+			remoteInfo = DooDooGame;
+		};
+		8C8858932B308A4E00C8652A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C8858702B308A4A00C8652A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8858772B308A4A00C8652A;
+			remoteInfo = DooDooGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C2F6B6F2B399DF900909AFF /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		8C2F6B712B39A6C000909AFF /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		8C2F6B732B39A71F00909AFF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8C8858782B308A4A00C8652A /* DooDooGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DooDooGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C88587B2B308A4A00C8652A /* DooDooGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooDooGameApp.swift; sourceTree = "<group>"; };
+		8C88587D2B308A4A00C8652A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C88587F2B308A4D00C8652A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8858822B308A4D00C8652A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C8858882B308A4E00C8652A /* DooDooGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DooDooGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C88588C2B308A4E00C8652A /* DooDooGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooDooGameTests.swift; sourceTree = "<group>"; };
+		8C8858922B308A4E00C8652A /* DooDooGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DooDooGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8858962B308A4E00C8652A /* DooDooGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooDooGameUITests.swift; sourceTree = "<group>"; };
+		8C8858982B308A4E00C8652A /* DooDooGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooDooGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CFCF76F2B31D60D00DAD00B /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		8CFCF7732B31DF2800DAD00B /* Gifimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gifimage.swift; sourceTree = "<group>"; };
+		8CFCF7752B31E4EA00DAD00B /* dodoWalkGIFBG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dodoWalkGIFBG.gif; sourceTree = "<group>"; };
+		8CFCF7772B33311000DAD00B /* gamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamePage.swift; sourceTree = "<group>"; };
+		8CFCF77B2B34847600DAD00B /* dodoDanceNoBG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dodoDanceNoBG.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8858752B308A4A00C8652A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8858852B308A4E00C8652A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C88588F2B308A4E00C8652A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C88586F2B308A4A00C8652A = {
+			isa = PBXGroup;
+			children = (
+				8C2F6B6F2B399DF900909AFF /* Localizable.xcstrings */,
+				8C88587A2B308A4A00C8652A /* DooDooGame */,
+				8C88588B2B308A4E00C8652A /* DooDooGameTests */,
+				8C8858952B308A4E00C8652A /* DooDooGameUITests */,
+				8C8858792B308A4A00C8652A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8858792B308A4A00C8652A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8858782B308A4A00C8652A /* DooDooGame.app */,
+				8C8858882B308A4E00C8652A /* DooDooGameTests.xctest */,
+				8C8858922B308A4E00C8652A /* DooDooGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C88587A2B308A4A00C8652A /* DooDooGame */ = {
+			isa = PBXGroup;
+			children = (
+				8C88587B2B308A4A00C8652A /* DooDooGameApp.swift */,
+				8C88587D2B308A4A00C8652A /* ContentView.swift */,
+				8CFCF76F2B31D60D00DAD00B /* MainPage.swift */,
+				8CFCF7772B33311000DAD00B /* gamePage.swift */,
+				8C2F6B732B39A71F00909AFF /* CardView.swift */,
+				8C2F6B712B39A6C000909AFF /* Memory.swift */,
+				8CFCF7752B31E4EA00DAD00B /* dodoWalkGIFBG.gif */,
+				8CFCF77B2B34847600DAD00B /* dodoDanceNoBG.gif */,
+				8CFCF7732B31DF2800DAD00B /* Gifimage.swift */,
+				8C88587F2B308A4D00C8652A /* Assets.xcassets */,
+				8C8858812B308A4D00C8652A /* Preview Content */,
+			);
+			path = DooDooGame;
+			sourceTree = "<group>";
+		};
+		8C8858812B308A4D00C8652A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C8858822B308A4D00C8652A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C88588B2B308A4E00C8652A /* DooDooGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C88588C2B308A4E00C8652A /* DooDooGameTests.swift */,
+			);
+			path = DooDooGameTests;
+			sourceTree = "<group>";
+		};
+		8C8858952B308A4E00C8652A /* DooDooGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8858962B308A4E00C8652A /* DooDooGameUITests.swift */,
+				8C8858982B308A4E00C8652A /* DooDooGameUITestsLaunchTests.swift */,
+			);
+			path = DooDooGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8858772B308A4A00C8652A /* DooDooGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C88589C2B308A4E00C8652A /* Build configuration list for PBXNativeTarget "DooDooGame" */;
+			buildPhases = (
+				8C8858742B308A4A00C8652A /* Sources */,
+				8C8858752B308A4A00C8652A /* Frameworks */,
+				8C8858762B308A4A00C8652A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DooDooGame;
+			productName = DooDooGame;
+			productReference = 8C8858782B308A4A00C8652A /* DooDooGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C8858872B308A4E00C8652A /* DooDooGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C88589F2B308A4E00C8652A /* Build configuration list for PBXNativeTarget "DooDooGameTests" */;
+			buildPhases = (
+				8C8858842B308A4E00C8652A /* Sources */,
+				8C8858852B308A4E00C8652A /* Frameworks */,
+				8C8858862B308A4E00C8652A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C88588A2B308A4E00C8652A /* PBXTargetDependency */,
+			);
+			name = DooDooGameTests;
+			productName = DooDooGameTests;
+			productReference = 8C8858882B308A4E00C8652A /* DooDooGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C8858912B308A4E00C8652A /* DooDooGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8858A22B308A4E00C8652A /* Build configuration list for PBXNativeTarget "DooDooGameUITests" */;
+			buildPhases = (
+				8C88588E2B308A4E00C8652A /* Sources */,
+				8C88588F2B308A4E00C8652A /* Frameworks */,
+				8C8858902B308A4E00C8652A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8858942B308A4E00C8652A /* PBXTargetDependency */,
+			);
+			name = DooDooGameUITests;
+			productName = DooDooGameUITests;
+			productReference = 8C8858922B308A4E00C8652A /* DooDooGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8858702B308A4A00C8652A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8C8858772B308A4A00C8652A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8C8858872B308A4E00C8652A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8C8858772B308A4A00C8652A;
+					};
+					8C8858912B308A4E00C8652A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8C8858772B308A4A00C8652A;
+					};
+				};
+			};
+			buildConfigurationList = 8C8858732B308A4A00C8652A /* Build configuration list for PBXProject "DooDooGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 8C88586F2B308A4A00C8652A;
+			productRefGroup = 8C8858792B308A4A00C8652A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8858772B308A4A00C8652A /* DooDooGame */,
+				8C8858872B308A4E00C8652A /* DooDooGameTests */,
+				8C8858912B308A4E00C8652A /* DooDooGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8858762B308A4A00C8652A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFCF77C2B34847600DAD00B /* dodoDanceNoBG.gif in Resources */,
+				8C2F6B702B399DF900909AFF /* Localizable.xcstrings in Resources */,
+				8C8858832B308A4D00C8652A /* Preview Assets.xcassets in Resources */,
+				8CFCF7762B31E4EA00DAD00B /* dodoWalkGIFBG.gif in Resources */,
+				8C8858802B308A4D00C8652A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8858862B308A4E00C8652A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8858902B308A4E00C8652A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8858742B308A4A00C8652A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F6B742B39A71F00909AFF /* CardView.swift in Sources */,
+				8C2F6B722B39A6C000909AFF /* Memory.swift in Sources */,
+				8C88587E2B308A4A00C8652A /* ContentView.swift in Sources */,
+				8CFCF7782B33311000DAD00B /* gamePage.swift in Sources */,
+				8C88587C2B308A4A00C8652A /* DooDooGameApp.swift in Sources */,
+				8CFCF7742B31DF2800DAD00B /* Gifimage.swift in Sources */,
+				8CFCF7702B31D60D00DAD00B /* MainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8858842B308A4E00C8652A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C88588D2B308A4E00C8652A /* DooDooGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C88588E2B308A4E00C8652A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8858992B308A4E00C8652A /* DooDooGameUITestsLaunchTests.swift in Sources */,
+				8C8858972B308A4E00C8652A /* DooDooGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C88588A2B308A4E00C8652A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8858772B308A4A00C8652A /* DooDooGame */;
+			targetProxy = 8C8858892B308A4E00C8652A /* PBXContainerItemProxy */;
+		};
+		8C8858942B308A4E00C8652A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C8858772B308A4A00C8652A /* DooDooGame */;
+			targetProxy = 8C8858932B308A4E00C8652A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C88589A2B308A4E00C8652A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C88589B2B308A4E00C8652A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C88589D2B308A4E00C8652A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DooDooGame/Preview Content\"";
+				DEVELOPMENT_TEAM = K72UH5F2K5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raghad.DooDooGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C88589E2B308A4E00C8652A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DooDooGame/Preview Content\"";
+				DEVELOPMENT_TEAM = K72UH5F2K5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raghad.DooDooGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C8858A02B308A4E00C8652A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raghad.DooDooGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DooDooGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DooDooGame";
+			};
+			name = Debug;
+		};
+		8C8858A12B308A4E00C8652A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raghad.DooDooGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DooDooGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DooDooGame";
+			};
+			name = Release;
+		};
+		8C8858A32B308A4E00C8652A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raghad.DooDooGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DooDooGame;
+			};
+			name = Debug;
+		};
+		8C8858A42B308A4E00C8652A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raghad.DooDooGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DooDooGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8858732B308A4A00C8652A /* Build configuration list for PBXProject "DooDooGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C88589A2B308A4E00C8652A /* Debug */,
+				8C88589B2B308A4E00C8652A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C88589C2B308A4E00C8652A /* Build configuration list for PBXNativeTarget "DooDooGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C88589D2B308A4E00C8652A /* Debug */,
+				8C88589E2B308A4E00C8652A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C88589F2B308A4E00C8652A /* Build configuration list for PBXNativeTarget "DooDooGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8858A02B308A4E00C8652A /* Debug */,
+				8C8858A12B308A4E00C8652A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8858A22B308A4E00C8652A /* Build configuration list for PBXNativeTarget "DooDooGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8858A32B308A4E00C8652A /* Debug */,
+				8C8858A42B308A4E00C8652A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C8858702B308A4A00C8652A /* Project object */;
+}

@@ -1,0 +1,38 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Double-tap to flip the card and reveal its content" : {
+
+    },
+    "Face-down card" : {
+
+    },
+    "Play" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ اللعب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play"
+          }
+        }
+      }
+    },
+    "Press this button to restart the game" : {
+
+    },
+    "Restart" : {
+
+    },
+    "Restart Button" : {
+
+    }
+  },
+  "version" : "1.0"
+}
